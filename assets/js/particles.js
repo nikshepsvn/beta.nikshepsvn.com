@@ -16,7 +16,7 @@ function init() {
     scene = new THREE.Scene();
     scene.fog = new THREE.FogExp2( 0x000000, 0.0007 );
     geometry = new THREE.Geometry();
-    for ( i = 0; i < 200; i ++ ) {
+    for ( i = 0; i < 250; i ++ ) {
         var vertex = new THREE.Vector3();
         vertex.x = Math.random() * 2000 - 1000;
         vertex.y = Math.random() * 2000 - 1000;
