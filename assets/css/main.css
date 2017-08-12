@@ -1,0 +1,40 @@
+html, body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding:0;
+    position:relative;
+}
+
+.nav-wrapper{
+    background-color: black;
+    padding:0 5vw 0 5vw;
+}
+#landing{
+    height: 100vh;
+    background:transparent;
+    color:white;
+}
+
+#landing #name{
+    top:30%;
+    left:20%;
+    font-family: 'Didact Gothic';
+}
+
+#landing #info{
+    top:34%;
+    left:20%;
+    font-family: 'Cabin';
+    font-size: 1.7em;
+}
+
+#about{
+    height: 50vh;
+}
+
+#projects{
+    height: 100vh;
+}
+
+#contact{
+    height: 50vh;
+}
