@@ -117,5 +117,38 @@ html, body{
 }
 
 #contact{
-    height: 50vh;
+    height: 40vh;
+}
+
+
+.contact-icons{
+    position: relative;
+    text-align:center;
+    top:17.5%;
+    font-size:7em;
+}
+
+.icon{
+    padding:1%;
+}
+
+#footer{
+    height: 5vh;
+    margin:0 40% 0 40%;
+    background-color:black;
+    color:white;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+#footer-text{
+    font-size:1.25em;
+    margin:0 auto;
+}
+
+.fa fa-bolt{
+    font-size:2em;
 }
