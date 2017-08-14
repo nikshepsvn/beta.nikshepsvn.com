@@ -74,13 +74,13 @@ html, body{
 #experience{
     position: relative;
     text-align:center;
-    top:20%;
+    top:17.5%;
     width:70vw;
 }
 
 .exp-card{
     display:inline-block;
-    width:20vw;
+    width:22.5vw;
 }
 
 #projects{
@@ -99,8 +99,9 @@ html, body{
 .cards{
     position: relative;
     text-align:center;
-    top:12%;
+    top:10%;
     width:70vw;
+    color:black;
 }
 
 
@@ -109,11 +110,6 @@ html, body{
     position: relative;
     text-align:center;
     font-family: 'Didact Gothic';
-}
-
-.project-card{
-    display:inline-block;
-    width:15vw;
 }
 
 #contact{
@@ -126,6 +122,8 @@ html, body{
     text-align:center;
     top:17.5%;
     font-size:7em;
+    color:white;
+    margin:0 35% 0 35%;
 }
 
 .icon{
@@ -135,10 +133,7 @@ html, body{
 #footer{
     height: 5vh;
     margin:0 40% 0 40%;
-    background-color:black;
-    color:white;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
