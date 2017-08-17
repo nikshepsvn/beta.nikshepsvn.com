@@ -2,6 +2,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, i{
     margin: 0;
     padding:0;
     position:relative;
+    font-family: 'Cabin';
 }
 
 html, body{
@@ -25,15 +26,19 @@ html, body{
 
 #landing #name{
     top:30%;
-    left:20%;
+    position: relative;
+    text-align:center;
     font-family: 'Didact Gothic';
+    font-size:6em;
+    font-weight: 200;
 }
 
 #landing #info{
     top:34%;
-    left:20%;
+    position: relative;
+    text-align:center;
     font-family: 'Cabin';
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 
 #landing #landing-page-next-arrow{
@@ -61,7 +66,8 @@ html, body{
     text-align:center;
     font-family: 'Cabin';
     font-size: 1.4em;
-    padding:0vw 10vw 0vw 10vw;
+    padding:2vw;
+    margin:0vw 10vw 0vw 10vw;
 }
 
 #about #about-experience-title{
